@@ -1,0 +1,31 @@
+:root,[data-theme="Green"] {
+  --bg: rgb(131, 146, 116);
+  --bgimg: url("../images/bg_1.png");
+  --layout: url("../images/frame2.png");
+  --text: rgb(87, 100, 73);
+  --extra: rgb(206, 208, 185);
+  --accent: rgb(105, 121, 89);
+}
+
+* {
+  color: var(--text);
+  font-family:'monocraft', verdana, sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-weight: normal;
+}
+
+p {
+  font-weight:normal;
+}
+
+
+
+@font-face{
+  font-family: 'monocraft';
+  src: url(../fonts/Monocraft.ttf);
+}

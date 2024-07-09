@@ -1,0 +1,125 @@
+:root,[data-theme="Green"] {
+    --bg: rgb(131, 146, 116);
+    --bgimg: url("../images/bg_1.png");
+    --layout: url("../images/frame2.png");
+    --text: rgb(206, 208, 185);
+    --accent: rgb(105, 121, 89);
+    --extra: rgb(87, 100, 73);
+  }
+  
+* {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    scrollbar-width: thin;
+    scrollbar-color: var(--bg) var(--accent);
+    font-family:'monocraft', verdana, sans-serif;
+}
+  
+h1, h2, h3, p, li {
+  color: var(--text);
+}
+  
+p, li {
+  font-size: 18px;
+}
+  
+  
+@font-face{
+  font-family: 'monocraft';
+  src: url(../fonts/Monocraft.ttf);
+}
+  
+  
+.index{
+  position: relative;
+  background-color: var(--bg);
+  background-image: var(--bgimg);
+}
+  
+.layout{
+  position: relative;
+  background:var(--layout);
+  background-repeat:no-repeat;
+  width:1250px;
+  height:1000px;
+  margin:10px auto;
+  overflow:hidden;
+  text-align: center;
+}
+
+#header {
+  position: absolute;
+  width:988px;
+  height:232px;
+  top: 22px;
+  left:131px;
+}
+
+#marquee {
+  color: var(--accent);
+  position: absolute;
+  width: 428px;
+  bottom: 12px;
+  left: 280px;
+}
+
+#leftTit {
+  color: var(--accent);
+  position: absolute;
+  width: 162px;
+  bottom: -13px;
+  left:3px;
+}
+
+#rightTit {
+  color: var(--accent);
+  position: absolute;
+  width: 162px;
+  bottom:-13px;
+  right:3px;
+}
+
+#left {
+  position: absolute;
+  width:162px;
+  height:496px;
+  top: 254px;
+  left:134px;
+}
+
+#center {
+  position: absolute;
+  width:625px; 
+  height:500px;
+  top: 250px;
+  left: 312px;
+}
+
+#right {
+  position: absolute;
+  width:162px;
+  height:496px;
+  top: 254px;
+  left:954px;
+}
+
+#footer {
+  position: absolute;
+  width: 474px;
+  height: 36px;
+  top: 791px;
+  left: 388px;
+}
+
+#ringText {
+  color: var(--accent);
+  position: absolute;
+  width:242px;
+  top: -14px;
+  left:116px;
+}
+
+  
+  
+  
