@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mae's Space</title>
+    <link rel="icon" href="./resources/images/favicon.png" type="image/x-icon">
+    <link href="./resources/css/oldIndex.css" type="text/css" rel="stylesheet">
+  </head>
+  <body class="index">
+    <!-- Layout for the main page, making up the "frame" -->
+    <div class="layout">
+      <div class="marquee">
+        <a href="./pages/main.html" target ="frame" style="text-decoration:none; color: var(--extra)">
+          <marquee id="marq" scrollamount="2">
+            <!-- MOTD -->
+            <strong>Hello World!</strong>
+          </marquee>
+        </a>
+      </div>
+      <!-- IFRAME !! -->
+      <iframe src="./pages/main.html" width="625" height="500" frameborder="0" scrolling="yes" name="frame" id="mainframe">
+      </iframe>
+      <!-- Left Column -->
+      <div id="left column">
+        <h3 class="banner" id = "leftTit">Updates</h3>
+      </div>
+      <!-- Right Column -->
+      <div id="right column">
+        <h3 class="banner" id="rightTit">Explore</h3>
+        
+        <nav>
+          <h2 class="navTitle">My Stuff!</h2>
+          <ul>
+            <li><a href="./pages/main.html" target="frame">Home</a></li>
+            <li><a href="./pages/about.html" target="frame">About</a></li>
+            <li><a href="./pages/art.html" target="frame">Art</a></li>
+            <li><a href="./pages/music.html" target="frame">Music</a></li>
+            <li><a href="./pages/library.html" target="frame">Library</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="web ring">
+      <!-- Left arrow, Lily. Right arrow, Sarah. -->
+    </div>
+  </body>
+</html>
