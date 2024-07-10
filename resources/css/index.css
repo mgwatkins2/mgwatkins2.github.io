@@ -60,24 +60,55 @@ p, li {
   color: var(--accent);
   position: absolute;
   width: 428px;
-  bottom: 12px;
+  height: 28px;
+  bottom: 11px;
   left: 280px;
+}
+
+#marqLink {
+  width:428px;
+  height:28px;
+  text-decoration:none;
+  color: var(--accent);
+}
+
+#marq {
+  width:428px;
+  height:28px;
+}
+
+#leftTitDiv {
+  position: absolute;
+  width: 162px;
+  height:29px;
+  bottom:0px;
+  left:3px;
 }
 
 #leftTit {
   color: var(--accent);
   position: absolute;
   width: 162px;
-  bottom: -13px;
-  left:3px;
+  height: 29px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#rightTitDiv {
+  position: absolute;
+  width: 162px;
+  height:29px;
+  bottom:0px;
+  right:3px;
 }
 
 #rightTit {
   color: var(--accent);
   position: absolute;
   width: 162px;
-  bottom:-13px;
-  right:3px;
+  height: 29px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #left {
@@ -116,8 +147,11 @@ p, li {
   color: var(--accent);
   position: absolute;
   width:242px;
-  top: -14px;
+  height: 29px;
+  top: 0px;
   left:116px;
+  margin-top:0px;
+  margin-bottom:0px;
 }
 
   

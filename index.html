@@ -8,26 +8,36 @@
   <body class="index">
     <div class="layout">
       <div id="header">
-        <h3 id = "leftTit">Updates</h3>
+        <!-- Left Title -->
+        <div id = "leftTitDiv">
+          <h3 id = "leftTit">Updates</h3>
+        </div>
+        <!-- Marquee -->
         <div id="marquee">
-          <a href="./pages/main.html" target ="frame" style="text-decoration:none; color: var(--extra)">
+          <a href="./pages/main.html" target ="frame" id = "marqLink">
             <marquee id="marq" scrollamount="2">
               <!-- MOTD -->
               <strong>Hello World!</strong>
             </marquee>
           </a>
         </div>
-        <h3 id = "rightTit">Explore</h3>
+        <!-- Right Title -->
+        <div id = "rightTitDiv">
+          <h3 id = "rightTit">Explore</h3>
+        </div>
       </div>
+      <!-- Left Column -->
       <div id="left">
         <h3 id="test">test</h3>
       </div>
       <div id="center">
         <iframe src="./pages/main.html" width="625" height="500" frameborder="0" scrolling="yes" name="frame" id="mainframe"></iframe>
       </div>
+      <!-- Right Column -->
       <div id="right">
         <h3>test</h3>
       </div>
+      <!-- Footer -->
       <div id="footer">
         <h3 id = "ringText">♥ Mae's Space ♥</h3>
       </div>
