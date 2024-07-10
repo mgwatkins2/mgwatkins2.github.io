@@ -77,6 +77,11 @@ p, li {
   height:28px;
 }
 
+#mText {
+  height: 28px;
+  line-height: 28px;
+}
+
 #leftTitDiv {
   position: absolute;
   width: 162px;
