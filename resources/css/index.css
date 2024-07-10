@@ -12,7 +12,7 @@
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
     scrollbar-width: thin;
-    scrollbar-color: var(--bg) var(--accent);
+    scrollbar-color: var(--extra) var(--accent);
     font-family:'monocraft', verdana, sans-serif;
 }
   
@@ -161,6 +161,9 @@ p, li {
   color: var(--accent);
   text-align: left;
   font-size: 16px;
+  line-height:16px;
+  padding-top: 2px;
+  padding-bottom: 4px;
 }
 
 #footer {
