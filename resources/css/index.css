@@ -142,6 +142,27 @@ p, li {
   left:954px;
 }
 
+#right h3, #left h3 {
+  color: var(--text);
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 18px;
+  border-style: none none dotted none; 
+  padding-bottom: 5px;
+}
+
+#right ul, #left ul {
+  margin-top: 3px;
+  margin-bottom: 3px; 
+  padding-left: 30px;
+}
+
+#right p, #left p, #right li, #left li {
+  color: var(--accent);
+  text-align: left;
+  font-size: 16px;
+}
+
 #footer {
   position: absolute;
   width: 474px;
@@ -160,6 +181,25 @@ p, li {
   left:116px;
   margin-top:0px;
   margin-bottom:0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: var(--extra);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+a:active {
+  text-decoration: none;
+  color: var(--extra);
 }
 
   
