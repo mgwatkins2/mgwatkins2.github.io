@@ -17,6 +17,7 @@
 }
   
 h1, h2, h3, p, li {
+  font-weight: normal;
   color: var(--text);
 }
   
@@ -144,6 +145,7 @@ p, li {
 
 #right h3, #left h3 {
   color: var(--text);
+  font-weight: normal;
   margin-top: 3px;
   margin-bottom: 3px;
   font-size: 18px;
