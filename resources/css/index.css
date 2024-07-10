@@ -80,16 +80,17 @@ p, li {
 #leftTitDiv {
   position: absolute;
   width: 162px;
-  height:29px;
-  bottom:0px;
+  height:21px;
+  bottom:4px;
   left:3px;
 }
 
 #leftTit {
   color: var(--accent);
+  line-height:20px;
   position: absolute;
   width: 162px;
-  height: 29px;
+  height: 21px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -97,16 +98,17 @@ p, li {
 #rightTitDiv {
   position: absolute;
   width: 162px;
-  height:29px;
-  bottom:0px;
+  height:21px;
+  bottom:4px;
   right:3px;
 }
 
 #rightTit {
   color: var(--accent);
+  line-height:20px;
   position: absolute;
   width: 162px;
-  height: 29px;
+  height: 21px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -145,6 +147,7 @@ p, li {
 
 #ringText {
   color: var(--accent);
+  line-height:29px;
   position: absolute;
   width:242px;
   height: 29px;
