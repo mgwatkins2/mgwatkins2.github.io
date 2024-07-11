@@ -36,6 +36,28 @@ p, li {
   width: 75%;
 }
 
+th {
+  text-align: center;
+  color: var(--title);
+  border-color: var(--title);
+  border-style: dotted;
+}
+
+td {
+  text-align: center;
+  color: var(--text);
+  border-color: var(--title);
+  border-style: dotted;
+}
+
+#fTable td {
+  width: 150px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @font-face{
   font-family: 'monocraft';
