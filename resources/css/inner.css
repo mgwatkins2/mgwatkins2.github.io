@@ -25,6 +25,15 @@ p, li {
   font-weight:normal;
 }
 
+#shellPic {
+  border-style: dotted;
+  border-color: var(--title);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 @font-face{

@@ -79,6 +79,7 @@ p, li {
 }
 
 #mText {
+  font-weight: normal;
   height: 28px;
   line-height: 28px;
 }
@@ -174,6 +175,14 @@ p, li {
   height: 36px;
   top: 791px;
   left: 388px;
+}
+
+#leftLink {
+  position: absolute;
+  height: 26px;
+  width: 83px;
+  left:30px;
+  bottom:0px;
 }
 
 #ringText {
