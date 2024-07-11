@@ -19,7 +19,7 @@
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
   scrollbar-width: thin;
-  scrollbar-color: var(--extra) var(--accent);
+  scrollbar-color: var(--text) var(--extra);
 }
 
 body {
@@ -78,6 +78,12 @@ td {
 }
 
 .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centerImg {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
