@@ -8,32 +8,55 @@
   
 }
 
-* {
-  font-family:'monocraft', verdana, sans-serif;
-  margin-left: 15px;
-  margin-right: 15px;
+@font-face{
+  font-family: 'monocraft';
+  src: url(../fonts/Monocraft.ttf);
 }
 
-h1, h2, h3 {
+* {
+  font-family:'monocraft', verdana, sans-serif;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  scrollbar-width: thin;
+  scrollbar-color: var(--extra) var(--accent);
+}
+
+body {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+h1, h2, h3, h4, h5, h6 {
   color: var(--title);
   text-align: center;
   font-weight: normal;
 }
 
+h1 {
+  font-size: 1.5em;
+  line-height:1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+  line-height:1.3em;
+}
+
+h3 {
+  font-size: 1.17em;
+  line-height:1.17em;
+}
+
+h4 {
+  font-size: 1.17em;
+  line-height:1.17em;
+}
+
 p, li {
   color: var(--text);
   font-weight:normal;
-}
-
-#shellPic {
-  border-style: dotted;
-  border-color: var(--title);
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
+  text-align: left;
 }
 
 th {
@@ -59,7 +82,14 @@ td {
   margin-right: auto;
 }
 
-@font-face{
-  font-family: 'monocraft';
-  src: url(../fonts/Monocraft.ttf);
+.framedPhoto {
+  border-width:1.5px;
+  border-style: dotted;
+  border-color: var(--title);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
