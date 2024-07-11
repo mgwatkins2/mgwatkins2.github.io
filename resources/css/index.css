@@ -161,12 +161,19 @@ p, li {
 }
 
 #right p, #left p, #right li, #left li {
-  color: var(--accent);
+  color: var(--extra);
   text-align: left;
   font-size: 16px;
   line-height:16px;
   padding-top: 2px;
   padding-bottom: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#right p, #left p {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #footer {
