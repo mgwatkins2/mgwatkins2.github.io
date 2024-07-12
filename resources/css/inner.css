@@ -73,7 +73,7 @@ td {
   border-style: dotted;
 }
 
-#fTable td {
+#fTable td, #fTable th {
   width: 150px;
 }
 
