@@ -155,9 +155,15 @@ p, li {
 }
 
 #right ul, #left ul {
+  list-style:none;
   margin-top: 3px;
   margin-bottom: 3px; 
-  padding-left: 30px;
+  padding-left: 10px;
+}
+
+.icon {
+  padding-left:4px;
+  padding-right: 6px;
 }
 
 #right p, #left p, #right li, #left li {
