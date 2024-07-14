@@ -1,37 +1,50 @@
 :root,[data-theme="Green"] {
-    --bg: rgb(131, 146, 116);
-    --bgimg: url("../images/bg_1.png");
-    --layout: url("../images/frame2.png");
-    --text: rgb(206, 208, 185);
-    --accent: rgb(105, 121, 89);
-    --extra: rgb(87, 100, 73);
-  }
-  
-* {
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
-    scrollbar-width: thin;
-    scrollbar-color: var(--extra) var(--accent);
-    font-family:'monocraft', verdana, sans-serif;
+  --bg: rgb(131, 146, 116);
+  --bgimg: url("../images/bg_1.png");
+  --layout: url("../images/frame2.png");
+  --title: rgb(206, 208, 185);
+  --text: rgb(87, 100, 73);
+  --extra: rgb(105, 121, 89);
 }
-  
-h1, h2, h3, p, li {
-  font-weight: normal;
-  color: var(--text);
-}
-  
-p, li {
-  font-size: 18px;
-}
-  
   
 @font-face{
   font-family: 'monocraft';
   src: url(../fonts/Monocraft.ttf);
 }
+
+* {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  scrollbar-width: thin;
+  scrollbar-color: var(--text) var(--extra);
+  font-family:'monocraft', verdana, sans-serif;
+}
   
+h1, h2, h3, p, li {
+  font-weight: normal;
+  color: var(--title);
+}
   
+p, li {
+  font-size: 18px;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: var(--text);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--extra);
+}
+
+a:active {
+  text-decoration: none;
+  color: var(--text);
+}
+
 .index{
   position: relative;
   background-color: var(--bg);
@@ -58,7 +71,7 @@ p, li {
 }
 
 #marquee {
-  color: var(--accent);
+  color: var(--extra);
   position: absolute;
   width: 428px;
   height: 28px;
@@ -70,7 +83,7 @@ p, li {
   width:428px;
   height:28px;
   text-decoration:none;
-  color: var(--accent);
+  color: var(--extra);
 }
 
 #marq {
@@ -92,15 +105,7 @@ p, li {
   left:3px;
 }
 
-#leftTit {
-  color: var(--accent);
-  line-height:20px;
-  position: absolute;
-  width: 162px;
-  height: 21px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
 
 #rightTitDiv {
   position: absolute;
@@ -108,16 +113,6 @@ p, li {
   height:21px;
   bottom:4px;
   right:3px;
-}
-
-#rightTit {
-  color: var(--accent);
-  line-height:20px;
-  position: absolute;
-  width: 162px;
-  height: 21px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 #left {
@@ -145,7 +140,7 @@ p, li {
 }
 
 #right h3, #left h3 {
-  color: var(--text);
+  color: var(--title);
   font-weight: normal;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -167,7 +162,7 @@ p, li {
 }
 
 #right p, #left p, #right li, #left li {
-  color: var(--extra);
+  color: var(--text);
   text-align: left;
   font-size: 16px;
   line-height:16px;
@@ -201,7 +196,7 @@ p, li {
 }
 
 #ringText {
-  color: var(--accent);
+  color: var(--extra);
   line-height:29px;
   position: absolute;
   width:242px;
@@ -212,25 +207,14 @@ p, li {
   margin-bottom:0px;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:link, a:visited {
-  text-decoration: none;
+.colTitle {
   color: var(--extra);
+  line-height:20px;
+  position: absolute;
+  width: 162px;
+  height: 21px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
-a:hover {
-  text-decoration: none;
-  color: var(--accent);
-}
-
-a:active {
-  text-decoration: none;
-  color: var(--extra);
-}
-
-  
   
   
