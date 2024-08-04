@@ -105,7 +105,14 @@ a:active {
   left:3px;
 }
 
-
+#online-img, #offline-img {
+  position: absolute;
+  width:152px;
+  height:45px;
+  padding-left: 5px;
+  padding-right:5px;
+  display: none;
+}
 
 #rightTitDiv {
   position: absolute;
