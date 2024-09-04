@@ -2,6 +2,17 @@
     --skin: url(https://crafatar.com/skins/c524c06b-66ff-4256-955c-5a7d6b8f1359);
   }
   
+  * {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode:nearest-neighbor;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform:translate3d(0,0,0);
+    -webkit-transform-style: preserve-3d;
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+  }
+
   #container1 {
     float: left;
     margin-right: 1em;
@@ -29,6 +40,7 @@
     height: fit-content;
     scale: 10;
     image-rendering: pixelated;
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
     > * {
       transform-style: preserve-3d;
     }
